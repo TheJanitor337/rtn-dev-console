@@ -1,4 +1,4 @@
-import React, { forwardRef } from 'react';
+import { forwardRef } from 'react';
 import { Text, View } from 'react-native';
 import styles from './SshTerminal.styles';
 import type { NativeProps } from './RtnSshTerminalViewNativeComponent';

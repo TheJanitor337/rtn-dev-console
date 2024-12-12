@@ -11,9 +11,10 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		27E0D9B50B871FF75E8BBAF7 /* Pods_RtnDevConsoleExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C344723E06304C9560B9124 /* Pods_RtnDevConsoleExample.framework */; };
-		69613508DF6E9EACCE05ADB1 /* Pods_RtnDevConsoleExample_RtnDevConsoleExampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE071DB93C00801ABF4B9BF2 /* Pods_RtnDevConsoleExample_RtnDevConsoleExampleTests.framework */; };
+		697299C9F0D2922FA686BE19 /* libPods-RtnDevConsoleExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 69F1ABD9D3600CB8130D1721 /* libPods-RtnDevConsoleExample.a */; };
+		78CE1A6DA985E99CB5BAE74E /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 03A99C360E50D150277ECFFB /* PrivacyInfo.xcprivacy */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		94E7C45579F7790201975049 /* libPods-RtnDevConsoleExample-RtnDevConsoleExampleTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 841D16B30FB8F2FDCD46425D /* libPods-RtnDevConsoleExample-RtnDevConsoleExampleTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,6 +31,7 @@
 		00E356EE1AD99517003FC87E /* RtnDevConsoleExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RtnDevConsoleExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* RtnDevConsoleExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RtnDevConsoleExampleTests.m; sourceTree = "<group>"; };
+		03A99C360E50D150277ECFFB /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = RtnDevConsoleExample/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		11F02467D276FABB8F21010F /* Pods-RtnDevConsoleExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RtnDevConsoleExample.debug.xcconfig"; path = "Target Support Files/Pods-RtnDevConsoleExample/Pods-RtnDevConsoleExample.debug.xcconfig"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* RtnDevConsoleExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RtnDevConsoleExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = RtnDevConsoleExample/AppDelegate.h; sourceTree = "<group>"; };
@@ -37,12 +39,12 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = RtnDevConsoleExample/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = RtnDevConsoleExample/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = RtnDevConsoleExample/main.m; sourceTree = "<group>"; };
-		6C344723E06304C9560B9124 /* Pods_RtnDevConsoleExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RtnDevConsoleExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		69F1ABD9D3600CB8130D1721 /* libPods-RtnDevConsoleExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RtnDevConsoleExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		80587FC7DC3DB19C8ADDD337 /* Pods-RtnDevConsoleExample-RtnDevConsoleExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RtnDevConsoleExample-RtnDevConsoleExampleTests.release.xcconfig"; path = "Target Support Files/Pods-RtnDevConsoleExample-RtnDevConsoleExampleTests/Pods-RtnDevConsoleExample-RtnDevConsoleExampleTests.release.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = RtnDevConsoleExample/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		841D16B30FB8F2FDCD46425D /* libPods-RtnDevConsoleExample-RtnDevConsoleExampleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RtnDevConsoleExample-RtnDevConsoleExampleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B400DD1A193BE1A1D2685DBB /* Pods-RtnDevConsoleExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RtnDevConsoleExample.release.xcconfig"; path = "Target Support Files/Pods-RtnDevConsoleExample/Pods-RtnDevConsoleExample.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		EE071DB93C00801ABF4B9BF2 /* Pods_RtnDevConsoleExample_RtnDevConsoleExampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RtnDevConsoleExample_RtnDevConsoleExampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F29D7929D3E1E322D899D816 /* Pods-RtnDevConsoleExample-RtnDevConsoleExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RtnDevConsoleExample-RtnDevConsoleExampleTests.debug.xcconfig"; path = "Target Support Files/Pods-RtnDevConsoleExample-RtnDevConsoleExampleTests/Pods-RtnDevConsoleExample-RtnDevConsoleExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -51,7 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				69613508DF6E9EACCE05ADB1 /* Pods_RtnDevConsoleExample_RtnDevConsoleExampleTests.framework in Frameworks */,
+				94E7C45579F7790201975049 /* libPods-RtnDevConsoleExample-RtnDevConsoleExampleTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,7 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27E0D9B50B871FF75E8BBAF7 /* Pods_RtnDevConsoleExample.framework in Frameworks */,
+				697299C9F0D2922FA686BE19 /* libPods-RtnDevConsoleExample.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,6 +94,7 @@
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
+				03A99C360E50D150277ECFFB /* PrivacyInfo.xcprivacy */,
 			);
 			name = RtnDevConsoleExample;
 			sourceTree = "<group>";
@@ -100,8 +103,8 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				6C344723E06304C9560B9124 /* Pods_RtnDevConsoleExample.framework */,
-				EE071DB93C00801ABF4B9BF2 /* Pods_RtnDevConsoleExample_RtnDevConsoleExampleTests.framework */,
+				69F1ABD9D3600CB8130D1721 /* libPods-RtnDevConsoleExample.a */,
+				841D16B30FB8F2FDCD46425D /* libPods-RtnDevConsoleExample-RtnDevConsoleExampleTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -243,6 +246,7 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				78CE1A6DA985E99CB5BAE74E /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -474,7 +478,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 4XCS62YMPJ;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = RtnDevConsoleExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -505,7 +509,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 4XCS62YMPJ;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = RtnDevConsoleExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -611,12 +615,10 @@
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 					"-DRN_FABRIC_ENABLED",
 				);
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					" ",
-				);
+				OTHER_LDFLAGS = "$(inherited)  ";
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
 				USE_HERMES = true;
 			};
 			name = Debug;
@@ -697,10 +699,7 @@
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 					"-DRN_FABRIC_ENABLED",
 				);
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					" ",
-				);
+				OTHER_LDFLAGS = "$(inherited)  ";
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				USE_HERMES = true;

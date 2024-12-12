@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState, type RefObject } from 'react';
+import { useEffect, useRef, useState, type RefObject } from 'react';
 import { SafeAreaView, StyleSheet, View } from 'react-native';
 
 import ErrorBoundary from 'react-native-error-boundary';

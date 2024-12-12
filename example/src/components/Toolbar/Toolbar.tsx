@@ -1,4 +1,4 @@
-import React, { useEffect, type FC } from 'react';
+import { useEffect, type FC } from 'react';
 import { View, TouchableOpacity, Text, StyleSheet } from 'react-native';
 
 import { log, LogLevel } from '../../utils/log';
