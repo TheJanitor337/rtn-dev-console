@@ -1690,37 +1690,7 @@
     invariant "^2.2.4"
     nullthrows "^1.1.1"
 
-"@react-navigation/core@^7.3.0":
-  version "7.3.0"
-  dependencies:
-    "@react-navigation/routers" "^7.1.1"
-    escape-string-regexp "^4.0.0"
-    nanoid "3.3.7"
-    query-string "^7.1.3"
-    react-is "^18.2.0"
-    use-latest-callback "^0.2.1"
-    use-sync-external-store "^1.2.2"
-
-"@react-navigation/elements@^2.2.4":
-  version "2.2.4"
-  dependencies:
-    color "^4.2.3"
-
-"@react-navigation/native@^7.0.13":
-  version "7.0.13"
-  dependencies:
-    "@react-navigation/core" "^7.3.0"
-    escape-string-regexp "^4.0.0"
-    fast-deep-equal "^3.1.3"
-    nanoid "3.3.7"
-    use-latest-callback "^0.2.1"
-
-"@react-navigation/routers@^7.1.1":
-  version "7.1.1"
-  dependencies:
-    nanoid "3.3.7"
-
-"@release-it/conventional-changelog@^9.0.2":
+"@release-it/conventional-changelog@^9.0.3":
   version "9.0.3"
   dependencies:
     concat-stream "^2.0.0"
@@ -2618,23 +2588,11 @@ color-convert@^2.0.1:
   dependencies:
     color-name "~1.1.4"
 
-color-name@^1.0.0, color-name@~1.1.4:
+color-name@~1.1.4:
   version "1.1.4"
 
 color-name@1.1.3:
   version "1.1.3"
-
-color-string@^1.9.0:
-  version "1.9.1"
-  dependencies:
-    color-name "^1.0.0"
-    simple-swizzle "^0.2.2"
-
-color@^4.2.3:
-  version "4.2.3"
-  dependencies:
-    color-convert "^2.0.1"
-    color-string "^1.9.0"
 
 colorette@^1.0.7:
   version "1.4.0"
@@ -2948,9 +2906,6 @@ decamelize@^1.2.0:
 
 decamelize@^5.0.0:
   version "5.0.1"
-
-decode-uri-component@^0.2.2:
-  version "0.2.2"
 
 dedent@^0.7.0:
   version "0.7.0"
@@ -3549,9 +3504,6 @@ fill-range@^7.1.1:
   dependencies:
     to-regex-range "^5.0.1"
 
-filter-obj@^1.1.0:
-  version "1.1.0"
-
 finalhandler@1.1.2:
   version "1.1.2"
   dependencies:
@@ -4077,9 +4029,6 @@ is-array-buffer@^3.0.4:
 
 is-arrayish@^0.2.1:
   version "0.2.1"
-
-is-arrayish@^0.3.1:
-  version "0.3.2"
 
 is-async-function@^2.0.0:
   version "2.0.0"
@@ -5472,9 +5421,6 @@ ms@2.0.0:
 mute-stream@1.0.0:
   version "1.0.0"
 
-nanoid@3.3.7:
-  version "3.3.7"
-
 natural-compare-lite@^1.4.0:
   version "1.4.0"
 
@@ -5959,14 +5905,6 @@ pupa@^3.1.0:
 pure-rand@^6.0.0:
   version "6.1.0"
 
-query-string@^7.1.3:
-  version "7.1.3"
-  dependencies:
-    decode-uri-component "^0.2.2"
-    filter-obj "^1.1.0"
-    split-on-first "^1.0.0"
-    strict-uri-encode "^2.0.0"
-
 queue-microtask@^1.2.2:
   version "1.2.3"
 
@@ -5998,9 +5936,6 @@ react-devtools-core@^5.3.1:
     shell-quote "^1.6.1"
     ws "^7"
 
-react-freeze@^1.0.0:
-  version "1.0.4"
-
 react-hook-form@^7.53.2:
   version "7.54.0"
   resolved "http://localhost:4873/react-hook-form/-/react-hook-form-7.54.0.tgz"
@@ -6012,7 +5947,7 @@ react-is@^16.13.1:
 react-is@^17.0.1:
   version "17.0.2"
 
-react-is@^18.0.0, react-is@^18.2.0:
+react-is@^18.0.0:
   version "18.3.1"
 
 react-native-builder-bob@^0.31.0:
@@ -6051,16 +5986,10 @@ react-native-notifications@^5.1.0:
   resolved "http://localhost:4873/react-native-notifications/-/react-native-notifications-5.1.0.tgz"
   integrity sha512-laqDSDlCvEASmJR6cXpqaryK855ejQd07vrfYERzhv68YDOoSkKy/URExRP4vAfAOVqHhix80tLbNUcfvZk2VQ==
 
-react-native-safe-area-context@^4.14.0, "react-native-safe-area-context@>= 4.0.0":
+react-native-safe-area-context@^4.14.0:
   version "4.14.1"
   resolved "http://localhost:4873/react-native-safe-area-context/-/react-native-safe-area-context-4.14.1.tgz"
   integrity sha512-+tUhT5WBl8nh5+P+chYhAjR470iCByf9z5EYdCEbPaAK3Yfzw+o8VRPnUgmPAKlSccOgQBxx3NOl/Wzckn9ujg==
-
-"react-native-screens@>= 4.0.0":
-  version "4.3.0"
-  dependencies:
-    react-freeze "^1.0.0"
-    warn-once "^0.1.0"
 
 react-native-test-app@^4.0.0:
   version "4.0.1"
@@ -6123,7 +6052,7 @@ react-native@*, react-native@>=0.57.7, react-native@>=0.66, "react-native@0.70 -
 react-refresh@^0.14.0:
   version "0.14.2"
 
-react@*, "react@^16.8.0 || ^17 || ^18 || ^19", "react@^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0", react@^18.2.0, "react@>= 18.2.0", react@>=16.6.0, react@>=16.8, react@>=17.0.0, "react@18.1 - 19.0", react@18.3.1:
+react@*, "react@^16.8.0 || ^17 || ^18 || ^19", react@^18.2.0, react@>=16.6.0, "react@18.1 - 19.0", react@18.3.1:
   version "18.3.1"
   dependencies:
     loose-envify "^1.1.0"
@@ -6404,6 +6333,7 @@ rimraf@~2.6.2:
     react-hook-form "^7.53.2"
     react-native "0.76.1"
     react-native-error-boundary "^1.2.7"
+    react-native-notifications "^5.1.0"
     react-native-safe-area-context "^4.14.0"
     react-native-uuid "^2.0.3"
 
@@ -6566,11 +6496,6 @@ signal-exit@^3.0.2, signal-exit@^3.0.3, signal-exit@^3.0.7:
 signal-exit@^4.1.0:
   version "4.1.0"
 
-simple-swizzle@^0.2.2:
-  version "0.2.2"
-  dependencies:
-    is-arrayish "^0.3.1"
-
 sisteransi@^1.0.5:
   version "1.0.5"
 
@@ -6648,9 +6573,6 @@ spdx-expression-parse@^3.0.0:
 spdx-license-ids@^3.0.0:
   version "3.0.20"
 
-split-on-first@^1.0.0:
-  version "1.1.0"
-
 split2@^3.0.0, split2@^3.2.2:
   version "3.2.2"
   dependencies:
@@ -6683,9 +6605,6 @@ statuses@2.0.1:
 
 stdin-discarder@^0.2.2:
   version "0.2.2"
-
-strict-uri-encode@^2.0.0:
-  version "2.0.0"
 
 string_decoder@^1.1.1:
   version "1.3.0"
@@ -7103,12 +7022,6 @@ uri-js@^4.2.2:
 url-join@5.0.0:
   version "5.0.0"
 
-use-latest-callback@^0.2.1:
-  version "0.2.3"
-
-use-sync-external-store@^1.2.2:
-  version "1.4.0"
-
 util-deprecate@^1.0.1, util-deprecate@~1.0.1:
   version "1.0.2"
 
@@ -7144,9 +7057,6 @@ walker@^1.0.7, walker@^1.0.8:
   version "1.0.8"
   dependencies:
     makeerror "1.0.12"
-
-warn-once@^0.1.0, warn-once@^0.1.1:
-  version "0.1.1"
 
 wcwidth@^1.0.1:
   version "1.0.1"
